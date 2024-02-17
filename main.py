@@ -27,6 +27,7 @@ class Motor:
                 self.tipo=z
 
 class Auto:
+    cantidadCreados=None
     def __init__(self,modelo,precio,asientos,marca,motor,registro,cantidadCreados):
         self.modelo=modelo
         self.precio=precio
